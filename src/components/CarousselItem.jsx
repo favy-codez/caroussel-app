@@ -1,6 +1,6 @@
 import React from 'react'
 
-function carousselItem() {
+function carousselItem({item}) {
   return (
     <div>Caroussel-item</div>
   )

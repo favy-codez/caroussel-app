@@ -19,8 +19,12 @@ function Caroussel() {
 
   return (
     <div className='caroussel'>
+        <div className='inner'>
+            {items.map((item) => {
+                return <CarousselItem item={item} />
+            })}
         
-        <CarousselItem/>
+        </div>
     </div>
   )
 }
