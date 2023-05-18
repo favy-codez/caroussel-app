@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function Caroussel-item() {
+function carousselItem() {
   return (
     <div>Caroussel-item</div>
   )
 }
+
+export default carousselItem
