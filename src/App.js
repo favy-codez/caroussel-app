@@ -1,12 +1,10 @@
 import './App.css';
-import Caroussel from './components/Caroussel';
-import CarousselItem from './components/CarousselItem';
+import Caroussel from './Components/Caroussel';
 
 function App() {
   return (
     <div className="App">
      <Caroussel/>
-     <CarousselItem/>
     </div>
   );
 }
